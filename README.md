@@ -2,7 +2,6 @@
 <h3 align="center">My personal portfolio website</h3>
 <br><br>
 <p align="center" style="margin-top:10px">
-<hr>
 
 <div align="center">
 <img  alt="Logo1" src="https://user-images.githubusercontent.com/64307441/220335802-04b67835-1a51-4c3a-a066-b99858cb87e6.png">
