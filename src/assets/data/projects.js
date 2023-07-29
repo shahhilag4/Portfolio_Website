@@ -1,11 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 import SIH from '../images/sih.png';
+import Rogitihaas from '../images/rogitihaas.png';
 import SamparkPlasma from '../images/sampark-plasma.jpg';
 import PBES from '../images/pbes.png';
 import CBA from '../images/cba.png';
 import OMR from '../images/omr.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'RogItihaas',
+    desc:
+      'Creating an online centralized health system to completely transform the way we manage healthcare in India and make India\'s all रोग an इतिहास',
+    img: Rogitihaas,
+    link: 'https://github.com/shahhilag4/RogItihaas',
+  },
   {
     id: uuidv4(),
     name: 'Sampark Plasma',

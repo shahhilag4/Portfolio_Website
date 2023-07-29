@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgCPlusPlus } from 'react-icons/cg';
-import { SiHtml5,SiCss3,SiJavascript,SiJava,SiMongodb,SiReact,SiAngular,SiSpringboot,SiGit,SiHeroku,SiNetlify,SiFigma } from 'react-icons/si';
+import { SiHtml5,SiCss3,SiJavascript,SiJava,SiMongodb,SiReact,SiAngular,SiSpringboot,SiGit,SiNetlify,SiFigma } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
@@ -63,9 +63,6 @@ export default function ServicesSection() {
           />
           <ServicesSectionItem
             icon={<SiGit/>}
-          />
-          <ServicesSectionItem
-            icon={<SiHeroku/>}
           />
           <ServicesSectionItem
             icon={<SiNetlify/>}

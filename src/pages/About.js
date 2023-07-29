@@ -141,6 +141,10 @@ export default function About() {
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem2
+                title="July 2023 - Present"
+                items={['Technology Analyst I at Fiserv']}
+              />
+              <AboutInfoItem2
                 title="July 2022 - Sept 2022"
                 items={['Technology Analyst Intern at Fiserv']}
               />
@@ -157,6 +161,10 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Achievements</h1>
 
+              <AboutInfoItem3
+                items={['Top 10 (West Zone) - Solving for India Hackathon by GFG']}
+                link='https://drive.google.com/file/d/1oJkZiHNCSYKrFWmYrxGmcEsCqhrbGuoq/view?usp=drivesdk'
+              />
               <AboutInfoItem3
                 items={['Secured 3rd position at HackEd V1.0 Hackathon organized by HackerEarth and K12 Techno Services.']}
                 link='https://www.hackerearth.com/challenges/hackathon/hack-ed-v10/'

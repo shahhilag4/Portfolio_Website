@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
 import {FaLinkedin,FaGithub} from 'react-icons/fa';
-import {SiCodechef,SiCodeforces,SiGeeksforgeeks,SiLeetcode,SiHackerrank,SiCodingninjas,SiHackerearth} from 'react-icons/si';
+import {SiCodechef,SiCodeforces,SiGeeksforgeeks,SiLeetcode,SiCodingninjas} from 'react-icons/si';
 
 import PText from './Ptext';
 
@@ -103,7 +103,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am currently pursuing my Bachleor's in IT and have a keen interest in developing full stack web applications that bring about a change in the day-to-day lives of people.
+              I am currently a Technology Analyst at Fiserv and have a keen interest in developing full stack web applications that bring about a change in the day-to-day lives of people.
             </PText>
             <Button btnText="See My Works" btnLink="/projects" />
           </div>
@@ -111,29 +111,11 @@ export default function HeroSection() {
               <div className='flexing'>
                 <li>
                   <a
-                    href="https://www.codechef.com/users/shahhilag4"
+                    href="https://www.codechef.com/users/shahhilag"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <SiCodechef />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.hackerearth.com/@shahhilag4"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <SiHackerearth />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.hackerrank.com/shahhilag4"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <SiHackerrank />
                   </a>
                 </li>
                 <li>
