@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
 import {FaLinkedin,FaGithub} from 'react-icons/fa';
-import {SiCodechef,SiCodeforces,SiGeeksforgeeks,SiLeetcode,SiCodingninjas} from 'react-icons/si';
+import {SiCodechef,SiCodeforces,SiLeetcode} from 'react-icons/si';
 
 import PText from './Ptext';
 
@@ -103,7 +103,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am currently a Technology Analyst at Fiserv and have a keen interest in developing full stack web applications that bring about a change in the day-to-day lives of people.
+              I am currently a Technology Analyst 2 at Fiserv and have a keen interest in developing full stack web applications that bring about a change in the day-to-day lives of people.
             </PText>
             <Button btnText="See My Works" btnLink="/projects" />
           </div>
@@ -116,15 +116,6 @@ export default function HeroSection() {
                     rel="noreferrer"
                   >
                     <SiCodechef />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.codingninjas.com/codestudio/profile/40ce0f9f-4c27-460e-87d8-6743e2f9eaa2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <SiCodingninjas />
                   </a>
                 </li>
                 <li>
@@ -143,15 +134,6 @@ export default function HeroSection() {
                     rel="noreferrer"
                   >
                     <SiLeetcode />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://auth.geeksforgeeks.org/user/shahhilag4/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <SiGeeksforgeeks />
                   </a>
                 </li>
                 <li>

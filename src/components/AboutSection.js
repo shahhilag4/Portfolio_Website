@@ -91,7 +91,7 @@ export default function AboutSection() {
           />
           <PText>
             I am a full stack web developer from Gujarat,
-            India.I am skilled in technologies like <strong>HTML,CSS,JavaScript,C++</strong> and frameworks like <strong>Angular</strong> and <strong>React</strong> (FrontEnd) and <strong>Spring Boot</strong> (Backend).
+            India.I am skilled in technologies like <strong>C++,Java,Python</strong> and frameworks like <strong>Angular</strong> and <strong>React</strong> (FrontEnd) and <strong>Spring Boot</strong> (Backend).
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
@@ -99,7 +99,7 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+          <img className="aboutImg" src={AboutImg} alt="Img"/>
         </div>
       </div>
     </AboutSectionStyles>

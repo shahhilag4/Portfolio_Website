@@ -1,12 +1,27 @@
 import { v4 as uuidv4 } from 'uuid';
 import SIH from '../images/sih.png';
 import Rogitihaas from '../images/rogitihaas.png';
+import Fiserv from '../images/fiserv.jpg'
 import SamparkPlasma from '../images/sampark-plasma.jpg';
 import PBES from '../images/pbes.png';
 import CBA from '../images/cba.png';
 import OMR from '../images/omr.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Feature based AI Transaction Routing System',
+    desc:
+      'Developed a real-time transaction routing application that intelligently analyzes various transaction attributes to route payments',
+    img: Fiserv,
+  },
+  {
+    id: uuidv4(),
+    name: 'AI-Powered Chatbot for Batch Monitoring, Merchant Information, and  Settlement Status',
+    desc:
+      'Developed an AI chatbot with 3 distinct profiles',
+    img: Fiserv,
+  },
   {
     id: uuidv4(),
     name: 'RogItihaas',

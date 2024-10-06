@@ -1,7 +1,8 @@
 import React from 'react';
 import { CgCPlusPlus } from 'react-icons/cg';
-import { SiHtml5,SiCss3,SiJavascript,SiJava,SiMongodb,SiReact,SiAngular,SiSpringboot,SiGit,SiNetlify,SiFigma } from 'react-icons/si';
+import { SiJava,SiReact,SiAngular,SiSpringboot,SiPython  } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
+import { FaAws } from "react-icons/fa";
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItem from './ServicesSectionItem';
@@ -35,22 +36,13 @@ export default function ServicesSection() {
             icon={<CgCPlusPlus />}
           />
           <ServicesSectionItem
-            icon={<SiHtml5/>}
-          />
-          <ServicesSectionItem
-            icon={<SiCss3 />}
-          />
-          <ServicesSectionItem
-            icon={<SiJavascript />}
-          />
-          <ServicesSectionItem
             icon={<SiJava />}
           />
           <ServicesSectionItem
-            icon={<GrMysql />}
+            icon={<SiPython />}
           />
           <ServicesSectionItem
-            icon={<SiMongodb />}
+            icon={<GrMysql />}
           />
           <ServicesSectionItem
             icon={<SiReact />}
@@ -61,14 +53,8 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<SiSpringboot />}
           />
-          <ServicesSectionItem
-            icon={<SiGit/>}
-          />
-          <ServicesSectionItem
-            icon={<SiNetlify/>}
-          />
-          <ServicesSectionItem
-            icon={<SiFigma/>}
+           <ServicesSectionItem
+            icon={<FaAws />}
           />
         </div>
       </div>
