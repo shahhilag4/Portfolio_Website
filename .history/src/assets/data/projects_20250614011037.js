@@ -12,7 +12,7 @@ const projects = [
     id: uuidv4(),
     name: 'Offer Recommendation Platform',
     desc:
-      'An intelligent offer recommendation platform which provides the right offer to the right person at the right place on the right time',
+      'Developed a real-time transaction routing application that intelligently analyzes various transaction attributes to route payments',
     img: Fiserv,
   },
   {

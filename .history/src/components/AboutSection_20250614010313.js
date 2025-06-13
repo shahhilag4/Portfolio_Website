@@ -91,7 +91,7 @@ export default function AboutSection() {
           />
           <PText>
             I am a backend web developer from Gujarat,
-            India.I am skilled in technologies like <strong>C++,Java,Python</strong>
+            India.I am skilled in technologies like <strong>C++,Java,Python</strong> and frameworks like <strong>Angular</strong> and <strong>React</strong> (FrontEnd) and <strong>Spring Boot</strong> (Backend).
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

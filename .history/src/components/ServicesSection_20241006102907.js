@@ -45,6 +45,12 @@ export default function ServicesSection() {
             icon={<GrMysql />}
           />
           <ServicesSectionItem
+            icon={<SiReact />}
+          />
+          <ServicesSectionItem
+            icon={<SiAngular />}
+          />
+          <ServicesSectionItem
             icon={<SiSpringboot />}
           />
            <ServicesSectionItem

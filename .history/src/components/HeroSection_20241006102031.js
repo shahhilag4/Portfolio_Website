@@ -103,7 +103,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am currently a Technology Analyst 2 at Fiserv and have a keen interest in developing web applications that bring about a change in the day-to-day lives of people.
+              I am currently a Technology Analyst 2 at Fiserv and have a keen interest in developing full stack web applications that bring about a change in the day-to-day lives of people.
             </PText>
             <Button btnText="See My Works" btnLink="/projects" />
           </div>

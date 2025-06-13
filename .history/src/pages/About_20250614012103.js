@@ -91,7 +91,7 @@ export default function About() {
                 As a Software developer, I develop robust and scalable backend systems using Java Spring Boot, with a keen focus on integrating AI to create smarter, more impactful technologies. My proven track record, including 6 national hackathon victories and extensive freelance work, underscores my dedication to innovation and delivering cutting-edge solutions. Eager to collaborate on meaningful projects that leverage AI.
                 </PText>
               </div>
-              <Button btnText="Download Resume" btnLink="https://drive.google.com/file/d/10h0NWUkC-T2IbwvFNHxsHWVJjOGAKal5/view?usp=drive_link" />
+              <Button btnText="Download Resume" btnLink="https://drive.google.com/file/d/1hASE1LLajgOMc7fe5wya2ztQZgOL04aO/view?usp=drive_link" />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
